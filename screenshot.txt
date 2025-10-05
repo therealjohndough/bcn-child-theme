@@ -1,0 +1,9 @@
+SCREENSHOT PLACEHOLDER
+
+For WordPress theme repository and admin display, add a screenshot.png file:
+- Dimensions: 1200x900 pixels (or 880x660 pixels)
+- Format: PNG
+- Shows: Theme homepage or main design
+- Named: screenshot.png
+
+This helps users preview the theme in WordPress admin (Appearance > Themes).
