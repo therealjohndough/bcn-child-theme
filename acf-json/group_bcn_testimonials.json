@@ -1,0 +1,75 @@
+{
+    "key": "group_bcn_testimonials",
+    "title": "BCN Testimonials",
+    "fields": [
+        {
+            "key": "field_bcn_testimonials_section_heading",
+            "label": "Section Heading",
+            "name": "section_heading",
+            "type": "text",
+            "default_value": "Trusted by Buffalo's Cannabis Community",
+            "placeholder": "Enter section heading",
+            "required": 0
+        },
+        {
+            "key": "field_bcn_testimonials_section_description",
+            "label": "Section Description",
+            "name": "section_description",
+            "type": "textarea",
+            "default_value": "Real results from real members",
+            "placeholder": "Enter section description",
+            "rows": 2,
+            "required": 0
+        },
+        {
+            "key": "field_bcn_testimonials",
+            "label": "Testimonials",
+            "name": "testimonials",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Add Testimonial",
+            "sub_fields": [
+                {
+                    "key": "field_bcn_testimonial_quote",
+                    "label": "Quote",
+                    "name": "quote",
+                    "type": "textarea",
+                    "placeholder": "Enter testimonial quote",
+                    "rows": 4,
+                    "required": 1
+                },
+                {
+                    "key": "field_bcn_testimonial_author",
+                    "label": "Author Name",
+                    "name": "author",
+                    "type": "text",
+                    "placeholder": "John Doe",
+                    "required": 1
+                },
+                {
+                    "key": "field_bcn_testimonial_role",
+                    "label": "Role/Title",
+                    "name": "role",
+                    "type": "text",
+                    "placeholder": "Member Type or Role",
+                    "required": 0
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/bcn-testimonials"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true
+}

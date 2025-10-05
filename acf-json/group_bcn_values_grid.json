@@ -1,0 +1,76 @@
+{
+    "key": "group_bcn_values_grid",
+    "title": "BCN Values Grid",
+    "fields": [
+        {
+            "key": "field_bcn_values_section_heading",
+            "label": "Section Heading",
+            "name": "section_heading",
+            "type": "text",
+            "default_value": "Our Core Values",
+            "placeholder": "Enter section heading",
+            "required": 0
+        },
+        {
+            "key": "field_bcn_values_section_description",
+            "label": "Section Description",
+            "name": "section_description",
+            "type": "textarea",
+            "default_value": "The principles that guide everything we do",
+            "placeholder": "Enter section description",
+            "rows": 2,
+            "required": 0
+        },
+        {
+            "key": "field_bcn_values",
+            "label": "Values",
+            "name": "values",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Add Value",
+            "sub_fields": [
+                {
+                    "key": "field_bcn_value_icon",
+                    "label": "Icon",
+                    "name": "icon",
+                    "type": "text",
+                    "placeholder": "C",
+                    "instructions": "Single letter or short text for icon",
+                    "required": 0
+                },
+                {
+                    "key": "field_bcn_value_title",
+                    "label": "Title",
+                    "name": "title",
+                    "type": "text",
+                    "placeholder": "Value Title",
+                    "required": 1
+                },
+                {
+                    "key": "field_bcn_value_description",
+                    "label": "Description",
+                    "name": "description",
+                    "type": "textarea",
+                    "placeholder": "Value description",
+                    "rows": 3,
+                    "required": 1
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/bcn-values-grid"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true
+}

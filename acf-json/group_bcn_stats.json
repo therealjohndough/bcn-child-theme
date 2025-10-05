@@ -1,0 +1,49 @@
+{
+    "key": "group_bcn_stats",
+    "title": "BCN Stats",
+    "fields": [
+        {
+            "key": "field_bcn_stats",
+            "label": "Statistics",
+            "name": "stats",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Add Stat",
+            "sub_fields": [
+                {
+                    "key": "field_bcn_stat_number",
+                    "label": "Number",
+                    "name": "number",
+                    "type": "text",
+                    "placeholder": "500+",
+                    "instructions": "The statistic number",
+                    "required": 1
+                },
+                {
+                    "key": "field_bcn_stat_label",
+                    "label": "Label",
+                    "name": "label",
+                    "type": "text",
+                    "placeholder": "Active Members",
+                    "instructions": "Description of the statistic",
+                    "required": 1
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/bcn-stats"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true
+}

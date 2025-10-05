@@ -1,0 +1,93 @@
+{
+    "key": "group_bcn_hero",
+    "title": "BCN Hero Section",
+    "fields": [
+        {
+            "key": "field_bcn_hero_heading",
+            "label": "Heading",
+            "name": "heading",
+            "type": "text",
+            "default_value": "Building Buffalo's Cannabis Future, Together",
+            "placeholder": "Enter main heading",
+            "required": 0
+        },
+        {
+            "key": "field_bcn_hero_tagline",
+            "label": "Tagline",
+            "name": "tagline",
+            "type": "text",
+            "default_value": "Connect. Support. Elevate.",
+            "placeholder": "Enter tagline",
+            "required": 0
+        },
+        {
+            "key": "field_bcn_hero_subtitle",
+            "label": "Subtitle",
+            "name": "subtitle",
+            "type": "textarea",
+            "default_value": "Western New York's premier network fostering a thriving, collaborative, and responsible cannabis industry",
+            "placeholder": "Enter subtitle",
+            "rows": 3,
+            "required": 0
+        },
+        {
+            "key": "field_bcn_hero_primary_button_text",
+            "label": "Primary Button Text",
+            "name": "primary_button_text",
+            "type": "text",
+            "default_value": "Join the Network",
+            "placeholder": "Enter button text",
+            "required": 0
+        },
+        {
+            "key": "field_bcn_hero_primary_button_link",
+            "label": "Primary Button Link",
+            "name": "primary_button_link",
+            "type": "url",
+            "default_value": "#membership",
+            "placeholder": "Enter button URL",
+            "required": 0
+        },
+        {
+            "key": "field_bcn_hero_secondary_button_text",
+            "label": "Secondary Button Text",
+            "name": "secondary_button_text",
+            "type": "text",
+            "default_value": "Learn More",
+            "placeholder": "Enter button text",
+            "required": 0
+        },
+        {
+            "key": "field_bcn_hero_secondary_button_link",
+            "label": "Secondary Button Link",
+            "name": "secondary_button_link",
+            "type": "url",
+            "default_value": "#about",
+            "placeholder": "Enter button URL",
+            "required": 0
+        },
+        {
+            "key": "field_bcn_hero_background_color",
+            "label": "Background Color",
+            "name": "background_color",
+            "type": "color_picker",
+            "default_value": "#4A90E2",
+            "required": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/bcn-hero"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true
+}
