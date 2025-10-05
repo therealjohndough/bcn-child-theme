@@ -1,0 +1,26 @@
+# WordPress
+*.log
+.htaccess
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# Node modules (if any build tools are added later)
+node_modules/
+
+# Compiled files
+*.min.css
+*.min.js
